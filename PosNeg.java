@@ -11,7 +11,7 @@ public class PosNeg {
 			System.out.println("negative number");
 		}
 		else{
-			System.out.println("even");
+			System.out.println("zero");
 		}
 		
 	}
