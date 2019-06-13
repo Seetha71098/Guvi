@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class NnumberSort {
 	public static void main(String[] args) {
 		System.out.println("enter number size:");
@@ -16,5 +15,4 @@ public class NnumberSort {
 		}
 		sc.close();
 	}
-
 }
