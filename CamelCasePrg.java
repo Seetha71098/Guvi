@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class CamelCasePrg {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
-		String str=scan.next();
+		String str=scan.nextLine();
 		int count=0;
 		String str1[]=str.split(" ");
 		for(int i=0;i<str1.length;i++){
@@ -12,6 +12,9 @@ public class CamelCasePrg {
 			}
 		if(count==str1.length){
 			System.out.println("yes");
+		}
+		else{
+			System.out.println("no");
 		}
 		scan.close();
 	}
